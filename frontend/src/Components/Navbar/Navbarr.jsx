@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Images/nexus-logo.png";
-import { FaCaretDown } from "react-icons/fa";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Navbarr.css";
 import { LiaWhmcs } from "react-icons/lia";
@@ -16,14 +15,13 @@ function Navbarr() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/" className="nav-links">
+            <Nav.Link as={Link} to="https://nexus.pk/shared-hosting/host-zero/" className="nav-links">
               <span>WEB HOSTING</span>
-              <FaCaretDown className="icon" />
             </Nav.Link>
             <Nav.Link as={Link} to="/domain">DOMAINS</Nav.Link>
-            <Nav.Link as={Link} to="/developments">DEVELOPMENTS</Nav.Link>
-            <Nav.Link as={Link} to="/solutions">SOLUTIONS</Nav.Link>
-            <Nav.Link as={Link} to="/about-us" className="nav-links">ABOUT US</Nav.Link>
+            <Nav.Link as={Link} to="https://nexus.pk/web-solution/">DEVELOPMENTS</Nav.Link>
+            <Nav.Link as={Link} to="https://nexus.pk/ssl/">SOLUTIONS</Nav.Link>
+            <Nav.Link as={Link} to="https://nexus.pk/about-us/" className="nav-links">ABOUT US</Nav.Link>
           </Nav>
           <div className="button-wrapper">
             <Nav.Link as={Link} to="/client-area">

@@ -98,3 +98,22 @@
 .button:hover {
     transform: translateY(-10px);
 }
+
+
+@media (max-width: 768px) {
+    .Plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .button{
+        margin: 0% !important;
+    }
+
+    .Plans>div {
+        margin-left: 0% !important;
+    }
+}

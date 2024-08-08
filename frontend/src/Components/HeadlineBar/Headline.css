@@ -41,3 +41,10 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+@media (max-width: 768px) {
+    .Headline{
+        margin-top: 2rem;
+    }
+}

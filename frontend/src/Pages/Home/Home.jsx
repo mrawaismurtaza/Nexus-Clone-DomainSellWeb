@@ -5,6 +5,7 @@ import Headline from '../../Components/HeadlineBar/Headline';
 import Slider from '../../Components/BannerSlider/Slider';
 import Stat from '../../Components/CustomerStat/Stat';
 import Plan from '../../Components/Plans/Plan';
+import Footer from '../../Components/Footer/Footer';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Slider/>
       <Stat/>
       <Plan/>
+      <Footer/>
     </div>
   )
 }

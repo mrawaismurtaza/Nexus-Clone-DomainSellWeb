@@ -44,7 +44,13 @@ function Plan() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-primary button">Order Now</button>
+          <a
+            className="btn btn-primary button"
+            href="https://clientarea.nexus.pk/cart.php?a=confproduct&i=0"
+            role="button"
+          >
+            Order Now
+          </a>
         </div>
         <div className="Plan-2">
           <div className="headings">
@@ -80,7 +86,13 @@ function Plan() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-primary button">Order Now</button>
+          <a
+            className="btn btn-primary button"
+            href="https://clientarea.nexus.pk/cart.php?a=confproduct&i=0"
+            role="button"
+          >
+            Order Now
+          </a>
         </div>
         <div className="Plan-3">
           <div className="headings">
@@ -116,7 +128,13 @@ function Plan() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-primary button">Order Now</button>
+          <a
+            className="btn btn-primary button"
+            href="https://clientarea.nexus.pk/cart.php?a=confproduct&i=0"
+            role="button"
+          >
+            Order Now
+          </a>
         </div>
         <div className="Plan-4">
           <div className="headings">
@@ -152,7 +170,13 @@ function Plan() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-primary button">Order Now</button>
+          <a
+            className="btn btn-primary button"
+            href="https://clientarea.nexus.pk/cart.php?a=confproduct&i=0"
+            role="button"
+          >
+            Order Now
+          </a>
         </div>
       </div>
     </div>

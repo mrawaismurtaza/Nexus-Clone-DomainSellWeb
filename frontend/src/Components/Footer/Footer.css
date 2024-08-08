@@ -1,0 +1,168 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Container-Sec{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 35% 15% 15% 35%;
+    background: rgb(7, 7, 97);
+    color: white;
+}
+
+.Container-Sec > div > h3 {
+    font-size: 23px;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none; 
+  }
+  
+  .Container-Sec > div > h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 70%;
+    bottom: -1rem; 
+    height: 2px; 
+    background-color: green; 
+  }
+  
+
+.Rights-Sec{
+    font-size: 13px;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Why-Item, .About-Item, .Contact-Item, .Info-Item{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Why-Item>ul{
+    list-style: none;
+}
+
+.Why-Item>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.Why-Item>ul{
+    padding-left: 0rem !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Why-Item>ul>li>a:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.About-Item{
+    padding: 0% 10%;
+    text-align: justify;
+}
+
+.About-Item>h3{
+    
+    font-family:  cursive;
+}
+
+.Button {
+    padding: 10px 30px !important;
+    transition: transform 0.3s ease-out !important;
+}
+
+
+.Button:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+.Contact-Item>address>ul>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    column-gap: 1rem;
+}
+
+.ul-item{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem !important;
+}
+
+
+.ul-item>li>a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.Info-Item>ul{
+    padding-left: 0rem !important;
+    list-style: none;
+}
+
+.Info-Item>ul>li>a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.ul-item>li>a:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.Info-Item>ul>li>a:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.icons{
+    font-size: 20px;
+    color: green;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .Container-Sec{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        gap: 2rem;
+    }
+
+    .About-Item{
+        padding: 0%;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    .icons{
+        font-size: 20px;
+    }
+
+    .Rights-Sec>p{
+        font-size: 10px;
+    }
+}

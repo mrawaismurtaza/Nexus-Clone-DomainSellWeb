@@ -38,7 +38,7 @@ function Slider() {
               </li>
               <li>
                 <img src={Tick} alt="Tick Sign" />
-                STARTING AT <span>PKR</span> 265.83 / M
+                STARTING AT PKR 265.83 / M
               </li>
             </ul>
           </div>
