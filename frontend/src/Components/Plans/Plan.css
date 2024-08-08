@@ -1,0 +1,100 @@
+.Plan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.Headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Headings>p:nth-of-type(1) {
+    color: blue;
+    font-weight: 700;
+}
+
+.Headings>p:nth-of-type(2) {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.Plans {
+    background-color: rgb(238, 238, 248);
+    padding: 6%;
+    display: grid;
+    grid-template-columns: 19rem 19rem 19rem 19rem;
+    box-shadow: 0 0 20px 10px rgba(238, 238, 248, 0.5);
+}
+
+.Plans>div {
+    margin-left: -1rem;
+    padding: 10%;
+    background-color: white;
+    cursor: pointer;
+    height: 37rem;
+    box-shadow: 0px 0px 40px 2px gray;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.Plans>div:nth-of-type(2) {
+    border: 4px solid yellow;
+}
+
+.Plans>div:hover {
+    border: 2px solid rgb(90, 90, 247);
+    z-index: 2;
+}
+
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.headings>p:nth-of-type(1) {
+    font-size: 28px;
+    font-weight: 700;
+    color: blue;
+    margin-bottom: 0% !important;
+}
+
+.headings>p:nth-of-type(2) {
+    gap: 0rem !important;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Offers>ul>li {
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    gap: 1rem;
+    padding-top: 3%;
+    margin-top: 0% !important;
+    width: 80%;
+}
+
+.Offers>ul>li>img {
+    margin-top: 3%;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+
+.button {
+    margin-left: 20%;
+    padding: 10px 30px !important;
+    transition: transform 0.3s ease-out !important;
+}
+
+
+.button:hover {
+    transform: translateY(-10px);
+}
